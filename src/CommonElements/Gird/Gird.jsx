@@ -6,7 +6,6 @@ import Box from '@mui/material/Box';
 
 export default function Gird(props) {
     const { sx, ...other } = props;
-    console.log(other);
     return (
         <Box
             sx={{
