@@ -1,5 +1,11 @@
-.sidebar-header{
+.sidebar-header {
     font-size: 29px;
     height: 163px;
     display: inherit;
+}
+
+.sidebar-header svg.position-absolute {
+    background: #4738a7;
+    border-radius: 30px;
+    left: -22px;
 }

@@ -79,9 +79,18 @@ table {
     margin-top: 5px;
 }
 
-.background-default{
+.background-default {
     background: #4f3cc9;
 }
-.color-white{
-color: white;
+
+.color-white {
+    color: white;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
 }
