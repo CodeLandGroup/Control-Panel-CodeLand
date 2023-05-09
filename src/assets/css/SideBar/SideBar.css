@@ -15,6 +15,13 @@
 .sidebar-profile img{
     width: 83px;
     border-radius: 55px;
-    left: 38%;
-    top: -53px;
+    left: 34%;
+    top: -120px;
+}
+.sidebar-profile .profile-title{
+    margin-top: 66px;
+}
+
+.sidebar-profile .profile-title h3{
+    font-size: revert;
 }
