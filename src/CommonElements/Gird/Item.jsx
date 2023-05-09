@@ -6,7 +6,6 @@ export default function Item(props) {
     return (
         <Box
             sx={{
-                p: 1,
                 fontSize: '0.875rem',
                 direction: 'rtl',
                 fontWeight: '700',

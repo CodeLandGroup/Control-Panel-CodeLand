@@ -12,7 +12,6 @@ export default function Gird(props) {
                 display: 'grid',
                 direction: 'ltr',
                 gridAutoColumns: 'ltr',
-                gap: 1,
                 ...sx,
             }}
             {...other}
