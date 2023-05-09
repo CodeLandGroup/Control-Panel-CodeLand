@@ -6,7 +6,7 @@ export default function SideBarProfile() {
         <>
             <div className='sidebar-profile w-100'>
                 <div className='profile-img w-100 position-relative'>
-                    <img className='position-absolute p-10 background-white' src={require('../../../assets/Images/avatar/man.png')}></img>
+                    <img className='transition position-absolute p-10 background-white' src={require('../../../assets/Images/avatar/man.png')}></img>
                 </div>
                 <div className='profile-title w-100  text-center'>
                     <h2 >Mostafa Abedini</h2>

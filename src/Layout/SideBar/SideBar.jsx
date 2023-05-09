@@ -3,7 +3,7 @@ import Item from '../../CommonElements/Gird/Item'
 import SideBarHeader from './Header/SideBarHeader'
 import SideBarProfile from './Header/SideBarProfile'
 import '../../assets/css/SideBar/SideBar.css'
-import SideBarMain from './SideBarMain/SideBarMain'
+import SideBarMain from './Main/SideBarMain'
 
 export default function SideBar() {
     return (

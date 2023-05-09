@@ -23,7 +23,9 @@
     left: 34%;
     top: -120px;
 }
-
+.sidebar-profile img:hover {
+    top: -125px;
+}
 .sidebar-profile .profile-title {
     margin-top: 66px;
 }
@@ -42,7 +44,7 @@
     font-size: large;
 }
 
-.sidebar-main .main-item a.active {
+.sidebar-main .main-item.active a {
     color: #6456fa;
 }
 
@@ -51,7 +53,7 @@
     content: "";
     background-color: #6456fa;
     width: 6px;
-    height: 130%;
+    height: 36px;
     font-weight: bold;
     right: -7px;
     border-radius: 8px;
@@ -63,17 +65,17 @@
     content: "";
     background-color: #6456fa;
     width: 6px;
-    height: 130%;
+    height: 36px;
     font-weight: bold;
     right: -2px;
     border-radius: 8px;
 }
-.sidebar-main .main-item:hover a.active::before{
+.sidebar-main .main-item.active:hover a::before{
     position: absolute;
     content: "";
     background-color: #6456fa;
     width: 6px;
-    height: 130%;
+    height: 36px;
     font-weight: bold;
     right: -2px;
     border-radius: 8px;
