@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Grid from './CommonElements/Gird/Gird'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        
-      </div>
-    );
-  }
+
+function App() {
+  return (
+    <div className="App">
+      <Grid>
+
+      </Grid>
+    </div>
+  );
 }
+
 
 export default App;
