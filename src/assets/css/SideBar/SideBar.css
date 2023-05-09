@@ -42,6 +42,46 @@
     font-size: large;
 }
 
+.sidebar-main .main-item a.active {
+    color: #6456fa;
+}
+
+.sidebar-main .main-item a::before {
+    position: absolute;
+    content: "";
+    background-color: #6456fa;
+    width: 6px;
+    height: 130%;
+    font-weight: bold;
+    right: -7px;
+    border-radius: 8px;
+    -webkit-transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.sidebar-main .main-item:hover a::before{
+    position: absolute;
+    content: "";
+    background-color: #6456fa;
+    width: 6px;
+    height: 130%;
+    font-weight: bold;
+    right: -2px;
+    border-radius: 8px;
+}
+.sidebar-main .main-item:hover a.active::before{
+    position: absolute;
+    content: "";
+    background-color: #6456fa;
+    width: 6px;
+    height: 130%;
+    font-weight: bold;
+    right: -2px;
+    border-radius: 8px;
+}
+.sidebar-main .main-item:hover a {
+    color: #6456fa;
+}
+
 .sidebar-main .main-item svg {
     font-size: x-large;
 }
