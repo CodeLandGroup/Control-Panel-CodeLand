@@ -66,6 +66,11 @@ table {
     border-spacing: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+    /* no underline */
+}
 
 .d-flex {
     display: flex;
@@ -82,6 +87,7 @@ table {
 .mt-20 {
     margin-top: 20px;
 }
+
 .background-default {
     background: #6456fa;
 }
@@ -97,17 +103,42 @@ table {
 .position-absolute {
     position: absolute;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
-.background-white{
+
+.background-white {
     background-color: white;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-gray{
+.text-end {
+    text-align: end;
+}
+
+.text-gray {
     color: gray;
+}
+.text-gray-2{
+    color: #31373e;
+}
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+.transition {
+    -webkit-transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.transition:hover {
+    -webkit-transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
 }

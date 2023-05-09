@@ -1,3 +1,5 @@
+/* ============================== SideBar Header Style */
+
 .sidebar-header {
     font-size: 29px;
     height: 163px;
@@ -9,19 +11,37 @@
     border-radius: 30px;
     left: -22px;
 }
-.sidebar-header h3{
+
+.sidebar-header h3 {
     margin-top: 25px;
 }
-.sidebar-profile img{
+
+/* ===================================== SideBar Profile Style */
+.sidebar-profile img {
     width: 83px;
     border-radius: 55px;
     left: 34%;
     top: -120px;
 }
-.sidebar-profile .profile-title{
+
+.sidebar-profile .profile-title {
     margin-top: 66px;
 }
 
-.sidebar-profile .profile-title h3{
+.sidebar-profile .profile-title h2 {
     font-size: revert;
+}
+
+/* ==================================== SideBar Main Style */
+.sidebar-main {
+    height: 575px;
+    overflow-y: auto;
+}
+
+.sidebar-main .main-item {
+    font-size: large;
+}
+
+.sidebar-main .main-item svg {
+    font-size: x-large;
 }
