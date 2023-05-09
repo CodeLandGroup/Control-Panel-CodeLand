@@ -79,8 +79,11 @@ table {
     margin-top: 5px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
 .background-default {
-    background: #4f3cc9;
+    background: #6456fa;
 }
 
 .color-white {
@@ -93,4 +96,10 @@ table {
 
 .position-absolute {
     position: absolute;
+}
+.w-100{
+    width: 100%;
+}
+.background-white{
+    background-color: white;
 }

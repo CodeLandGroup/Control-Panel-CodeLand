@@ -5,7 +5,16 @@
 }
 
 .sidebar-header svg.position-absolute {
-    background: #4738a7;
+    background: #564cbf;
     border-radius: 30px;
     left: -22px;
+}
+.sidebar-header h3{
+    margin-top: 25px;
+}
+.sidebar-profile img{
+    width: 83px;
+    border-radius: 55px;
+    left: 38%;
+    top: -53px;
 }
