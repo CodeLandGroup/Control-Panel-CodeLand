@@ -4,6 +4,7 @@ import SideBarHeader from './Header/SideBarHeader'
 import SideBarProfile from './Header/SideBarProfile'
 import '../../assets/css/SideBar/SideBar.css'
 import SideBarMain from './Main/SideBarMain'
+import SideBarFooter from './Footer/SideBarFooter'
 
 export default function SideBar() {
     return (
@@ -12,6 +13,7 @@ export default function SideBar() {
                 <SideBarHeader />
                 <SideBarProfile />
                 <SideBarMain />
+                <SideBarFooter/>
             </Item>
         </>
     )
