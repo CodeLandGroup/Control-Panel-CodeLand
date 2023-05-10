@@ -1,5 +1,5 @@
 import React from 'react'
-import { VscSearch, VscFilterFilled } from 'react-icons/vsc'
+import { VscSearch, VscGripper } from 'react-icons/vsc'
 export default function NavBarSearchBox() {
     return (
         <>
@@ -8,8 +8,8 @@ export default function NavBarSearchBox() {
                 <input type="search" name="" className='search p-10 background-light w-60' id="" placeholder='جست و جو کنید ...' />
                 <div className='search-button position-absolute'>
                     <button className='d-flex text-gray-2 transition'>
-                        <h2 className='p-5'>تایید</h2>
-                        <VscFilterFilled className='p-5'/>
+                        <h2 className='p-10'>تایید</h2>
+                        <VscGripper/>
                     </button>
                 </div>
             </div>
