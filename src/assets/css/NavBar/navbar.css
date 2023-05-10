@@ -34,7 +34,9 @@
     cursor: pointer;
     font-weight: bold;
 }
-
+.navbar .search-box .search-button button:hover {
+    background-color: #f9f9f9;
+}
 .navbar .search-box .search-button {
     border: 0;
     left: 18px;
