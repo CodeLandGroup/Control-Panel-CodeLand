@@ -1,0 +1,46 @@
+.navbar {
+    height: 79px;
+}
+
+.navbar .navbar-title h3 {
+    font-size: x-large;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+/* ======= Navbar Search Box */
+.navbar .search-box {
+    margin-right: 20px;
+}
+
+.navbar .search-box .search {
+    border: 0;
+    border-radius: 5px;
+    padding-right: 34px;
+    padding-left: 87px;
+}
+
+.navbar .search-box .search-icon {
+    font-weight: bold;
+    top: 21px;
+    right: 42%;
+}
+
+.navbar .search-box .search-button button {
+    background: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar .search-box .search-button {
+    border: 0;
+    left: 18px;
+    top: 15px;
+}
+.navbar .search-box .search-button h2{
+    padding-right: 19px;
+    padding-left: 11px;
+}
