@@ -12,6 +12,9 @@ function App() {
         <SideBar />
         <Item sx={{ gridRow: '1', gridColumn: '1/18' }}>
           <NavBar />
+          <Item  sx={{ gridRow: '1', gridColumn: '1/1',height:'900px',background:'#f3f5fa' }}>
+            
+          </Item>
         </Item>
       </Grid>
     </div>
