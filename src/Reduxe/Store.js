@@ -1,7 +1,10 @@
-import { createReducer } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+import smallSideBarReducer from './Slice/SideBar/SmallSideBarSlice'
 
-import reducers from './Reducers'
-
-const store = createReducer(reducers);
+const store = configureStore({
+    reducer: {
+        smallSideBar: smallSideBarReducer
+    }
+});
 
 export default store;

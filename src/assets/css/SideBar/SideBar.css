@@ -12,6 +12,10 @@
     left: -22px;
 }
 
+.sidebar-header svg.position-absolute.small {
+    transform: rotate3d(0, 18, 0, 180deg);
+}
+
 .sidebar-header h3 {
     margin-top: 25px;
 }
