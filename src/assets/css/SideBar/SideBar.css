@@ -6,6 +6,10 @@
     display: inherit;
 }
 
+.sidebar-header.position-relative.background-default.d-flex.p-10.color-white.small {
+    justify-content: center;
+}
+
 .sidebar-header svg.position-absolute {
     background: #564cbf;
     border-radius: 30px;
@@ -26,6 +30,13 @@
     border-radius: 55px;
     left: 34%;
     top: -120px;
+}
+
+.sidebar-profile img.small {
+    width: 35px;
+    border-radius: 55px;
+    left: 30%;
+    top: -96px;
 }
 
 .sidebar-profile img:hover {
@@ -52,6 +63,10 @@
 
 .sidebar-main .main-item.active a {
     color: #6456fa;
+}
+
+.sidebar-main .main-item a.transition.d-flex.text-gray-2.text-center.w-100.mt-20.small {
+    justify-content: center;
 }
 
 .sidebar-main .main-item a::before {
@@ -119,4 +134,12 @@
 
 .sidebar-footer .button-theme button.active {
     background-color: white;
+}
+
+.css-1rtdh6a.small{
+    grid-column: 15/15;
+}
+.css-15b6q7n.small{
+    grid-column: 1/15;
+
 }

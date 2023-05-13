@@ -5,20 +5,16 @@ import SideBarProfile from './Header/SideBarProfile'
 import '../../assets/css/SideBar/SideBar.css'
 import SideBarMain from './Main/SideBarMain'
 import SideBarFooter from './Footer/SideBarFooter'
-import { Provider } from 'react-redux'
-import store from '../../Reduxe/Store'
 
 export default function SideBar() {
     return (
         <>
-            <Provider store={store}>
-                <Item className="sidebar" sx={{ gridRow: '1', gridColumn: '18/18' }}>
-                    <SideBarHeader />
-                    <SideBarProfile />
-                    <SideBarMain />
-                    <SideBarFooter />
-                </Item>
-            </Provider>
+            <Item className="sidebar" sx={{ gridRow: '1', gridColumn: '18/18' }}>
+                <SideBarHeader />
+                <SideBarProfile />
+                <SideBarMain />
+                <SideBarFooter />
+            </Item>
         </>
     )
 }
