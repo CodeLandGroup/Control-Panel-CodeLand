@@ -5,6 +5,7 @@ import './assets/css/scroll.css'
 import './assets/css/reset.css';
 import { Provider } from 'react-redux';
 import store from './Reduxe/Store';
+import serviceWorkerDev from './ServiceWorkerDev';
 
 
 ReactDOM.render(
@@ -13,3 +14,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+serviceWorkerDev();
