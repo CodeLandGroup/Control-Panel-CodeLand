@@ -4,6 +4,7 @@ import ChartComponent from '../Components/Dashboard/ChartComponent'
 import FeatursComponent from '../Components/Dashboard/Featurs/FeatursComponent'
 import LatestTransAction from '../Components/Dashboard/LatestTransActions/LatestTransAction'
 import NewMembersPreviewComponent from '../Components/Dashboard/NewMemberPreview/NewMembersPreviewComponent'
+import ReportsPages from './ReportsPages'
 
 export default function DashboardPages() {
   return (
@@ -19,8 +20,6 @@ export default function DashboardPages() {
             <NewMembersPreviewComponent />
           </Grid>
         </Grid>
-
-
       </div>
     </>
   )
