@@ -15,8 +15,8 @@ export default function ChartComponent() {
 
 
     return (
-        <div className='chart-section background-dark dark-color-white'>
-                 <h3 className='chart-title'>نمودار فروش</h3>
+        <div className='chart-section background-dark dark-color-white container mt-30'>
+        <h3 className='chart-title'>نمودار فروش</h3>
                 <LineChart width={1100}  height={300} data={data}>
                     <XAxis dataKey="name" />
                     <YAxis />

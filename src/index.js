@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './assets/css/scroll.css'
 import './assets/css/reset.css';
+import './assets/css/index.css';
 import { Provider } from 'react-redux';
 import store from './Reduxe/Store';
 import serviceWorkerDev from './ServiceWorkerDev';
