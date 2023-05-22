@@ -10,8 +10,8 @@ export default function DashboardPages() {
     <>
       <FeatursComponent />
       <ChartComponent />
-      <div className='widget container mt-30' style={{ height: '400px' , }}>
-        <Grid container spacing={2}>
+      <div className='widget container mt-30 mb-20' style={{ height: '400px' , }}>
+        <Grid className='w-100' container spacing={2}>
           <Grid item xs={8}>
             <LatestTransAction />
           </Grid>
