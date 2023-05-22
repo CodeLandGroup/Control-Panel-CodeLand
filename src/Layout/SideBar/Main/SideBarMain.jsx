@@ -10,21 +10,21 @@ export default function SideBarMain() {
             <div className='sidebar-main'>
                 <ul>
                     <li className='main-item position-relative'>
-                        <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20' + smallSideBar.className}>
+                        <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20 dark-color-white' + smallSideBar.className}>
                             <RiBarChartLine className='w-25 text-center' />
                             <h3 className={'w-50 text-center mt-5' + smallSideBar.display}>داشبورد</h3>
                             <RiArrowLeftSLine className={'w-25 text-end' + smallSideBar.display} />
                         </a>
                     </li>
                     <li className='main-item position-relative'>
-                        <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20' + smallSideBar.className}>
+                    <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20 dark-color-white' + smallSideBar.className}>
                             <RiGroupFill className='w-25 text-center' />
                             <h3 className={'w-50 text-center mt-5' + smallSideBar.display}>گزارشات</h3>
                             <RiArrowLeftSLine className={'w-25 text-end' + smallSideBar.display} />
                         </a>
                     </li>
                     <li className='main-item position-relative'>
-                        <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20' + smallSideBar.className}>
+                    <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20 dark-color-white' + smallSideBar.className}>
                             <RiEqualizerFill className='w-25 text-center' />
                             <h3 className={'w-50 text-center mt-5' + smallSideBar.display}>مدیریت</h3>
                             <RiArrowLeftSLine className={'w-25 text-end' + smallSideBar.display} />

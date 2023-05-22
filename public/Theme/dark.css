@@ -1,0 +1,24 @@
+.color-dark {
+    color: #7a7e7e !important;
+}
+
+.color-icon-dark {
+    color: #2f303085 !important;
+}
+
+.background-dark {
+    background-color: #2f3030 !important;
+}
+
+.background-icon-dark {
+    background-color: #373838 !important;
+}
+
+
+.dark-color-white {
+    color: rgb(245, 237, 237);
+}
+
+.dark-background.active {
+    background-color: #2f3030 !important;
+}

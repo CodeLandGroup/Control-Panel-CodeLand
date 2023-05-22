@@ -9,11 +9,11 @@ export default function SideBarProfile() {
         <>
             <div className='sidebar-profile w-100'>
                 <div className='profile-img w-100 position-relative'>
-                    <img className={'transition position-absolute p-10 background-white'+smallSideBar.className} src={require('../../../assets/Images/avatar/man.png')}></img>
+                    <img className={'transition position-absolute p-10 background-white background-dark'+smallSideBar.className} src={require('../../../assets/Images/avatar/man.png')}></img>
                 </div>
                 <div className={'profile-title w-100  text-center'}>
-                    <h2 className={smallSideBar.display}>Mostafa Abedini</h2>
-                    <p className={'mt-5 text-gray' + smallSideBar.display}>fullstack developer</p>
+                    <h2 className={smallSideBar.display + ' dark-color-white'}>Mostafa Abedini</h2>
+                    <p className={'mt-5 text-gray color-dark ' + smallSideBar.display}>fullstack developer</p>
                 </div>
             </div>
         </>
