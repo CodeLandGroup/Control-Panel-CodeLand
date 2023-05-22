@@ -15,7 +15,7 @@ export default function ChartComponent() {
 
 
     return (
-        <div className='chart-section'>
+        <div className='chart-section background-dark dark-color-white'>
           
                 <LineChart width={1100}  height={300} data={data}>
                     <XAxis dataKey="name" />
