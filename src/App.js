@@ -5,6 +5,7 @@ import NavBar from './Layout/NavBar/NavBar';
 import Item from './CommonElements/Gird/Item';
 import { useRoutes } from 'react-router-dom';
 import { Routes } from './routes';
+import './assets/css/Main/main.css'
 
 function App() {
   let router = useRoutes(Routes)

@@ -11,16 +11,16 @@ import TransActionItem from './TransActionItem';
 export default function LatestTransAction() {
 
     return (
-        <div className='Latest-TransAction'>
+        <div className='Latest-TransAction background-white background-dark dark-color-white transition'>
             <h3 className='TransAction-title'>
                 آخرین تراکنش ها
             </h3>
             <table>
                 <tr className='transAction-row'>
-                    <th>نام کاربر</th>
-                    <th>تاریخ پرداخت</th>
-                    <th>مبلغ پرداخت</th>
-                    <th>وضعیت</th>
+                    <th className='background-icon-dark'>نام کاربر</th>
+                    <th className='background-icon-dark'>تاریخ پرداخت</th>
+                    <th className='background-icon-dark'>مبلغ پرداخت</th>
+                    <th className='background-icon-dark'>وضعیت</th>
                 </tr>
                <TransActionItem name="امیر محمد عرب خزایلی" className="succes"/>
                <TransActionItem name="مصطفی عابدینی" className="Unsuccessful"/>

@@ -22,3 +22,7 @@
 .dark-background.active {
     background-color: #2f3030 !important;
 }
+
+.dark.user-preview:hover, .dark.transAction-row:hover {
+    background-color: #373838 !important;
+}
