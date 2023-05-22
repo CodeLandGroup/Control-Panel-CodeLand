@@ -4,9 +4,7 @@ import { ResponsiveBar } from '@nivo/bar';
 export default function Chart1Component() {
   return (
     <>
-    <div className='chart-item container'>
-    </div>
-     <ResponsiveBar
+    <ResponsiveBar
         data={ChartData}
         keys={[
             'هندزفری',
@@ -18,7 +16,7 @@ export default function Chart1Component() {
             
         ]}
         indexBy="month"
-        margin={{ top: 100, right: 200, bottom: 100, left: 200 }}
+        margin={{ top: 50, right: 300, bottom: 300, left: 100 }}
         padding={0.1}
         valueScale={{ type: 'linear' }}
         indexScale={{ type: 'band', round: true }}
@@ -123,6 +121,7 @@ export default function Chart1Component() {
         ariaLabel="Nivo bar chart demo"
         barAriaLabel={e=>e.id+": "+e.formattedValue+" in country: "+e.indexValue}
     />
+    
     </>
    
   )

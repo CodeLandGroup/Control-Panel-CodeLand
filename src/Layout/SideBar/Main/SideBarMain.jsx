@@ -3,6 +3,7 @@ import { RiBarChartLine, RiArrowLeftSLine, RiGroupFill, RiEqualizerFill } from "
 import { useDispatch, useSelector } from 'react-redux';
 import { selectSmallSideBarData } from '../../../Reduxe/Slice/SideBar/SmallSideBarSlice.js';
 import { changeSideBarSelected } from '../../../Reduxe/Slice/SideBar/SideBarListSlice.js';
+import { Link } from 'react-router-dom';
 
 export default function SideBarMain() {
     const smallSideBar = useSelector(selectSmallSideBarData);
@@ -11,6 +12,7 @@ export default function SideBarMain() {
         <>
             <div className='sidebar-main'>
                 <ul>
+                    <Link to='/'>
                     <li className='main-item position-relative'
                         onClick={() => dispatch(changeSideBarSelected({ title: 'داشبورد', icon: <RiBarChartLine className='p-10 mt-20'/> }))}>
                         <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20 dark-color-white' + smallSideBar.className}>
@@ -19,6 +21,8 @@ export default function SideBarMain() {
                             <RiArrowLeftSLine className={'w-25 text-end' + smallSideBar.display} />
                         </a>
                     </li>
+                    </Link>
+                    <Link to='/reports'>
                     <li className='main-item position-relative'
                         onClick={() => dispatch(changeSideBarSelected({ title: 'گزارشات', icon: <RiGroupFill className='p-10 mt-20' /> }))}>
                         <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20 dark-color-white' + smallSideBar.className}>
@@ -27,7 +31,9 @@ export default function SideBarMain() {
                             <RiArrowLeftSLine className={'w-25 text-end' + smallSideBar.display} />
                         </a>
                     </li>
-                    <li className='main-item position-relative'
+                    </Link>
+                   <Link to='/userManager'>
+                   <li className='main-item position-relative'
                         onClick={() => dispatch(changeSideBarSelected({ title: 'مدیریت', icon: <RiEqualizerFill className='p-10 mt-20' /> }))}>
 
                         <a href="#" className={'transition d-flex text-gray-2 text-center w-100 mt-20 dark-color-white' + smallSideBar.className}>
@@ -36,6 +42,8 @@ export default function SideBarMain() {
                             <RiArrowLeftSLine className={'w-25 text-end' + smallSideBar.display} />
                         </a>
                     </li>
+                   </Link>
+                   
                 </ul>
             </div >
         </>
