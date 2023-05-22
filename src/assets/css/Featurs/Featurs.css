@@ -1,0 +1,40 @@
+.featurs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    padding: 3rem;
+}
+.featurs-item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 4rem;
+    transition: transform .3s ease;
+}
+.featurs-item:hover{
+    transform: rotate(10deg) translate(0, 10px);
+    cursor: pointer;
+}
+.featurs-title{
+    font-size: 1.4rem;
+}
+.featurs-range{
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.featurs-info{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+.featurs-sub{
+    margin-top: 1rem;
+}
+.featurs-icon-down{
+    margin-right: 1rem;
+    color: red;
+    font-size: 1.6rem;
+}
