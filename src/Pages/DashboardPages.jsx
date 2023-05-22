@@ -10,12 +10,12 @@ export default function DashboardPages() {
     <>
       <FeatursComponent />
       <ChartComponent />
-      <div className='widget'>
-        <Grid container>
-          <Grid item sx={8}>
+      <div className='widget container mt-30' style={{ height: '400px' , }}>
+        <Grid container spacing={2}>
+          <Grid item xs={8}>
             <LatestTransAction />
           </Grid>
-          <Grid item >
+          <Grid item xs={4}>
             <NewMembersPreviewComponent />
           </Grid>
         </Grid>

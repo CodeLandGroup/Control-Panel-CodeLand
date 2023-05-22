@@ -1,0 +1,37 @@
+.Latest-TransAction{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+}
+.TransAction-title{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.Latest-TransAction table{
+    margin-top: 2rem;
+}
+.transAction-row th{
+    padding: 1rem;
+    background-color: rgb(236, 232, 232);
+}
+.transAction-row td{
+    padding: 1rem 4rem;
+    
+}
+.transAction-row:hover{
+    background-color: rgb(236, 232, 232);
+    cursor: pointer;
+}
+.transAction-row .status-btn{
+    padding: .5rem 1.5rem;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: .2rem;
+    font-size: 1rem;
+}
+.transAction-row .status-btn.succes{
+    background-color: rgb(24, 221, 6);
+}
+.transAction-row .status-btn.Unsuccessful{
+    background-color: red;
+}

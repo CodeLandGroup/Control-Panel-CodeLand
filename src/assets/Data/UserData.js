@@ -1,17 +1,17 @@
 export const UserData = [
     {
-        name: 'Amir Khazaeli' ,
-        job: 'Developer' ,
+        name: 'امیر محمد عرب خزایلی' ,
+        job: 'برنامه نویس فرانت اند' ,
         img: require('../Images/userImage/model1.jpg'),
     },
     {
-        name: 'Mostafa Abedini' ,
-        job: 'Hacker' ,
+        name: 'مصطفی عابدینی' ,
+        job: 'هکر' ,
         img: require('../Images/userImage/model2.jpg'),
     },
     {
-        name: 'Parsa Mahmoudi' ,
-        job: 'Developer' ,
+        name: 'پارسا محمودی' ,
+        job: 'برنامه نویس بک اند' ,
         img: require('../Images/userImage/model3.jpg'),
     }
 ]

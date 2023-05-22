@@ -5,7 +5,7 @@ import '../../../assets/css/NewMemberPreview/NewMemberPreview.css'
 export default function NewMembersPreviewComponent() {
     return (
         <div className='member-widget container'>
-            <h3>New Join Member</h3>
+            <h3 className='widget-title'>کاربران جدید</h3>
             <div className='user-list'>
                 {
                     UserData.map((user)=>(
