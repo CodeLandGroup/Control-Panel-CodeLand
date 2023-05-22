@@ -9,7 +9,7 @@ import SideBarFooter from './Footer/SideBarFooter'
 export default function SideBar() {
     return (
         <>
-            <Item className="sidebar" sx={{ gridRow: '1', gridColumn: '18/18' }}>
+            <Item className="sidebar background-dark transition" sx={{ gridRow: '1', gridColumn: '18/18' }}>
                 <SideBarHeader />
                 <SideBarProfile />
                 <SideBarMain />

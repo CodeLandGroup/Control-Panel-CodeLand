@@ -6,9 +6,9 @@ import NavBarSearchBox from './NavBarSerchBox/NavBarSearchBox'
 export default function NavBar() {
     return (
         <>
-            <Item className="navbar d-flex" sx={{ gridRow: '1', gridColumn: '1/2' }}>
+            <Item className="navbar d-flex background-dark transition" sx={{ gridRow: '1', gridColumn: '1/2' }}>
                 <div className='navbar-title w-50'>
-                    <h3 className='text-gray-2 mt-10'>بخش داشبورد</h3>
+                    <h3 className='text-gray-2 mt-10 dark-color-white'>بخش داشبورد</h3>
                 </div>
                 <NavBarSearchBox/>
             </Item>
