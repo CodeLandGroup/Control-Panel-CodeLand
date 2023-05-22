@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineArrowDown} from 'react-icons/ai'
 export default function FeatursItemComponent(props) {
     return (
-        <div className='featurs-item background-dark dark-color-white'>
+        <div className='featurs-item background-dark dark-color-white mt-30'>
             <div className='featurs-title'>
                 <h3>{props.title}</h3>
             </div>

@@ -27,7 +27,7 @@ export default function SideBarFooter() {
     return (
         <>
             <div className={'sidebar-footer w-100' + smallSideBar.display}>
-                <div className='button-theme d-flex w-70 background-light p-5 background-icon-dark'>
+                <div className='button-theme d-flex w-85 background-light p-5 background-icon-dark'>
                     <button className={isDark ? 'active background-light text-gray-2 dark-background  d-flex dark-color-white'
                         : 'background-light text-gray-2  d-flex dark-background dark-color-white'} onClick={() => ChangeTheme(true)}>
                         <h3 className='p-10'>تاریک</h3>
