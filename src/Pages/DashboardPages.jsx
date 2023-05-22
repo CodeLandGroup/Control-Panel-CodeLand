@@ -1,10 +1,12 @@
 import React from 'react'
-import FeatursComponent from '../Components/Featurs/FeatursComponent'
+import ChartComponent from '../Components/Dashboard/ChartComponent'
+import FeatursComponent from '../Components/Dashboard/Featurs/FeatursComponent'
 
 export default function DashboardPages() {
   return (
     <>
     <FeatursComponent />
+    <ChartComponent />
     </>
   )
 }
